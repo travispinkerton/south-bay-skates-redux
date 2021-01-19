@@ -1,3 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('Hello Bulma!');
-  });
+'use strict';
+
+document.addEventListener('DOMContentLoaded', function () {
+  console.log('Hello Bulma!');
+});
+
