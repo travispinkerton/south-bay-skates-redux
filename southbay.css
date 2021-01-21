@@ -7,6 +7,19 @@
 
 }
 
+.store-features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.store-features-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
 @media (max-width: 800px) {
   
     .carousel {
@@ -67,6 +80,7 @@
 
 #main {
     background-image: url('https://i.pinimg.com/originals/c9/ff/91/c9ff911244df4f3298237c7235ab75c8.png');
+    
 }
 
 .carousel .carousel-item-visible {
@@ -94,8 +108,9 @@
     top: 50%;
     transform: translateY(-50%);
 }
-  
+
 .carousel .carousel-actions button {
+    margin-top: 450px;
     border-radius: 50px;
     background-color: white;
     border: 2px groove  #3f2b44;
@@ -115,7 +130,7 @@
   
 .carousel .carousel-actions button#carousel-button-next {
     margin-right: 20px;  
-    margin-left: 83%; 
+    margin-left: 81.5%; 
 }
   
 #dna {
